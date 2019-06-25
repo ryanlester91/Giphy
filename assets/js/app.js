@@ -1,5 +1,11 @@
 //document.ready(function() {
 
+//THINGS TO FIX
+//===========================
+//How to randomize the retrieved gifs
+//How to keep the number of gifs on page at 10
+//Gifs need to still be able to animate when I click them after adding animal buttons and pressing those buttons to generate the gifs
+
 //GLOBAL VARIABLES
 //====================================
 
@@ -151,4 +157,4 @@ var topics = ["cat", "dog", "rabbit"];
   
 
 
-})  
+  })
