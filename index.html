@@ -3,17 +3,51 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Giphy HW Project</title>
+  <title>Giftastic Giphy</title>
   <link rel="stylesheet" type="text/css" src="assets/reset.css">
+  <link rel="stylesheet" type="text/css" src="assets/css/style.css">
 </head>
+<style>
+body {
+  background-color: lavender;
+}
+
+h1 {
+  font-size: 64px;
+  text-shadow: 
+        0.025em 0.025em 0 yellow,
+        0.05em 0.05em 0 blue,
+        0.075em 0.075em 0 red,
+        0.1em 0.1em 0 black;
+}
+
+#instructions {
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+#addAnAnimal {
+  background-color: firebrick;
+  padding: 10px;
+  width: 200px;
+  border: 3px solid orange;
+}
+
+</style>
 
 <body>
 
-<div id= "buttons-view">
-<button data-animal="cat">cat</button>
-<button data-animal="dog">dog</button>
-<button data-animal="rabbit">rabbit</button>
+<div id="instructions">
+  <h1>GIFTASTIC GIPHY</h1>
+  <h3>Type in an animal name to create a button.<br>
+      Click that button to generate 10 random gifs of that animal. </h3>
 </div>
+
+<div id="addAnAnimal">
+  <div id= "buttons-view">
+    <button data-animal="cat">cat</button>
+    <button data-animal="dog">dog</button>
+    <button data-animal="rabbit">rabbit</button>
+  </div>
 
 
 
@@ -24,6 +58,7 @@
      <input id="add-gif" type="submit" value="Add an Animal">
      <input id="remove-gif" type="submit" value="Remove">
 </form>
+</div>
 
 
 <div id="gif-gallery">
